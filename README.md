@@ -1,57 +1,53 @@
-Bilal Boulbarss
-bilalboulbarss@gmail.com
-31-01-2024
+# Data Analytics Project
 
+## Bilal Boulbarss
+- Email: bilalboulbarss@gmail.com
+- Date: 31-01-2024
 
-----------------------------------
+---
 
+## Overview
 
-WERKLOOSHEID EN DOODSOORZAKEN IN DE VERENIGDE STATEN
+This project explores the relationship between unemployment and causes of death in the United States. It involves data preparation in a Jupyter Notebook and visualization in Power BI.
 
-In dit project zal ik onderzoeken of er verbanden zitten tussen bepaalde doodsoorzaken en werkloosheid in de VS. Dit zal ik doen door eerst twee datasets klaar te maken in een Jupyter Notebook, en daarna zal ik visualiseren in Power BI
+---
 
+## Requirements
 
+- Python Version: 3.9.7
+- Required Modules: pandas
 
-VEREISTEN
+**To run the notebook:**
+1. Place the provided CSV files in the same directory:
+    - leading_cause_death.csv
+    - Unemployment in America Per US State.csv
+2. If running in Google Colab, add code to import the files.
+3. Install the 'pandas' module for Python.
 
-Gemaakt in python versie: 3.9.7
+---
 
-Om het notebook te runnen zul je eerst de twee bijgevoegde bestanden in dezelfde directory moeten zetten:
-- leading_cause_death.csv
-- Unemployment in America Per US State.csv
+## Data Sources and Datasets
 
-Als je beslist de notebook te runnen in google colab, dien je zelf de code toe te voegen om de bestanden te importeren. 
+The project utilizes two raw datasets from Kaggle:
+- [Leading Causes of Death USA](https://www.kaggle.com/datasets/kingburrito666/leading-causes-of-death-usa/data)
+- [Unemployment in America Per US State](https://www.kaggle.com/code/ilyai332/unemployment-in-america-per-us-state/input)
 
-Om het notebook te runnen zul je ook de 'pandas' module moeten installeren voor python. 
+The included CSV file 'death_work.csv' is generated after running the Jupyter Notebook, containing cleaned data for use in the Power BI dashboard.
 
+---
 
+## Navigation Guide and Dashboard Features
 
-GEGEVENSBRONNEN EN DATASETS
+### Page 1:
+Upon opening the PBIX file, you'll land on this page, featuring multiple visualizations, slicers, and cards:
 
-De twee csv bestanden bovengenoemd zijn twee 'rauwe' datasets van Kaggle:
-- https://www.kaggle.com/datasets/kingburrito666/leading-causes-of-death-usa/data
-- https://www.kaggle.com/code/ilyai332/unemployment-in-america-per-us-state/input
+- **Slicers**: Adjust graphs by state or year. (Note: Year slicer does not affect line plots.)
+- **Reset Bookmark**: Removes all applied filters.
+- **Donut Diagram**: Displays all causes of death.
+- **Maps**: Show unemployment and deaths (all causes) in the US.
+- **Cards**: Display states with the highest and lowest unemployment rates.
+- **Line Plots**: Illustrate interesting trends over time.
 
-Het derde inbegrepen csv bestand is het bestand dat je krijgt na het runnen van de Jupyter Notebook, waar alle data cleaning is toegepast. Dus het pbix bestand maakt gebruik van het volgende csv bestand:
-- death_work.csv
+### Page 2:
+Dedicated visualization showing causes of death related to unemployment. Please note that these are relationships, not correlations. No causation conclusions are drawn.
 
-
-
-NAVIGATIEGIDS EN DASHBOARD FUNCTIES
-
-Bij het openen van het pbix bestand begin je op pagina 1. Op deze pagina heb je meerdere visualisaties, slicers en cards:
-
-- Slicers: Met de twee slicers 'State' en 'Year' kan je de grafieken aanpassen om verschillende states of jaren te laten zien. (Alleen de twee line-plots worden niet beïnvloed door de slicer 'Year'.)
-
-- 'Reset' Bookmark: Deze kan je gebruiken om alle toegepaste filters te verwijderen.
-
-- Donut diagram: Deze laat alle doodsoorzaken zien.
-
-- Maps: De twee kaarten van de VS laten 'Unemployment' en 'Death (all causes)' zien.
-
-- Cards: Deze twee kaarten laten de twee staten zien met de meeste en de minste werkloosheid in percentages.
-
-- Line plots: Deze twee lineplots zijn apart gekozen om interessante ontwikkelingen te laten zien over de tijd heen. 
-
-Op pagina 2 heb je een aparte visualisatie die de hele pagina overneemt. Deze visualisatie laat zien wat de doodsoorzaken zijn die een relatie hebben met werkloosheid. LET OP: Dit zijn geen correlaties, maar relaties. Er worden GEEN conclusies getrokken wat betreft veroorzaken. 
-# data-analytics-project
